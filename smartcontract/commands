@@ -1,0 +1,13 @@
+show current dev key
+cat contract/neardev/dev-account
+
+donate
+near call dev-1699534347660-15044641780813 donate --amount 1 --accountId dev-1699534347660-15044641780813
+
+get number of donors
+near view dev-1699534347660-15044641780813 number_of_donors
+
+view donations for account
+near view dev-1699534347660-15044641780813 get_donation_for_account '{"account_id": "dev-1699534347660-15044641780813"}'
+
+near call dev-1699543578237-36167433442959 comment '{"artId": "art123","comment": "watta fine art you have"}' --amount 1 --accountId stacye.testnet

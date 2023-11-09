@@ -1,0 +1,19 @@
+{
+  "name": "contract",
+  "version": "1.0.0",
+  "license": "(MIT AND Apache-2.0)",
+  "type": "module",
+  "scripts": {
+    "build": "./build.sh",
+    "deploy": "./deploy.sh",
+    "test": "echo no unit testing"
+  },
+  "dependencies": {
+    "near-cli": "^3.4.0",
+    "near-sdk-js": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "ts-morph": "^16.0.0"
+  }
+}

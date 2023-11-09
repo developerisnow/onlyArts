@@ -1,0 +1,21 @@
+{
+  "name": "donation-js",
+  "version": "1.0.0",
+  "license": "(MIT AND Apache-2.0)",
+  "scripts": {
+    "start": "cd frontend && npm run start",
+    "deploy": "cd contract && npm run deploy",
+    "build": "npm run build:contract && npm run build:web",
+    "build:web": "cd frontend && npm run build",
+    "build:contract": "cd contract && npm run build",
+    "test": "npm run build:contract && npm run test:unit && npm run test:integration && npm run test:e2e",
+    "test:unit": "cd contract && npm test",
+    "test:integration": "cd integration-tests && npm test -- -- \"./contract/build/contract.wasm\"",
+    "test:e2e": "cd frontend && npm run test:e2e",
+    "postinstall": "cd frontend && npm install && cd .. && cd integration-tests && npm install && cd .. && cd contract && npm install"
+  },
+  "devDependencies": {
+    "near-cli": "^3.3.0"
+  },
+  "dependencies": {}
+}

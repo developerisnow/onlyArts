@@ -1,0 +1,25 @@
+.
+├── .env
+├── .eslintrc.json
+├── .example.env
+├── components
+│   ├── MintForm.tsx
+│   ├── Minter.tsx
+│   └── NearWalletSelector.tsx
+├── constants.ts
+├── next-env.d.ts
+├── next.config.js
+├── package-lock.json
+├── package.json
+├── pages
+│   ├── _app.tsx
+│   ├── _document.tsx
+│   ├── index.tsx
+│   └── success.tsx
+├── styles
+│   └── globals.css
+├── tailwind.config.js
+├── tree.txt
+└── tsconfig.json
+
+3 directories, 19 files
