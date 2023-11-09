@@ -34,6 +34,15 @@ The smart contract handles the logic for minting NFTs, posting comments, managin
 - Reward Pool Management
 - Top-100 Comment Selection Logic
 
+## Diagrams
+
+### Entity-Relationship Diagram
+![Entity-Relationship Diagram:](https://planttext.com/api/plantuml/png/TP1B2i8m48RtESMiXLp0bIA8An7H0uHcgC4y93EbIEFTJTAM5iJb_yZ7FzaHgyYTim8z6tx3-NY3GG1im6ZO0d4qlirQIXXTfreyANgimoOubzzJzgmX5XynumvZyWTPpIOGPzjupjAQ9zAa5igTC4w8NbcBlDSw8j4FhSj5hnmkmGAvOg-YleHWAofMMH1ElKgjN9wIb6cOLujvVRLJdI5McAbTxHrwNRxn2m00)
+
+### State Diagram for a Comment
+
+![State Diagram for a Comment](https://planttext.com/api/plantuml/png/SoWkIImgAStDuOhMYbNGrRLJ2Cqho2ykIKtXWZ70eW4GffM2StvkRcfU2LI0Am2Xn2Sp6wmYA3KvDRCi5SpdWWY2f3tpGl8B30qCW2fSyqfIYu328Vu1ka0HBhWKI5rGQdbYKGhK912pMC4bixYaA3Ef56GXN1ga5kXcBeVKl1IG-m40)
+
 # Tokenomics and Gameplay Logic
 
 ## A) Tokenomics:
