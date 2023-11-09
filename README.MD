@@ -1,5 +1,7 @@
 # SocialFi NFT Platform
 
+![OnlyArts Hub](https://image-cache-service-z3w7d7dnea-ew.a.run.app/media?url=https://arweave.net/T7BUmTXw-jQV2h-NkaNeMsnCKMSgmuOUuJjudqiZNi8)
+
 This repository is a comprehensive codebase for the SocialFi NFT platform, consisting of three main components: `frontend marketplace`, `minterBuilder`, and `smartcontract`. Each component serves a unique purpose in facilitating a social-to-earn NFT ecosystem where users can mint NFTs of images, comment, and earn rewards based on interaction and engagement.
 
 ## Diagrams
@@ -8,8 +10,12 @@ This repository is a comprehensive codebase for the SocialFi NFT platform, consi
 
 ![Flow diagram](https://planttext.com/api/plantuml/png/BKzB2i8m4Dtd5BDi5qBTDWf2LN2ZHTe3X6IAmIHJabJnzawZkvdtuxr3oYhcnJjH3j6E2IDu6tA2wtcGVs2cn80cxp5aAUm4LVTxOBU7RTFKa1yOeFfWgWL0UmawOk4rM-KAZRDH6U6ERnKDz4Ikm9roUd4hOuEnBsiMvI0MaHJe4a8Lg6Hsj72UiqzCnNd4Z96h8WotViCbMCyHasXFmG1D7CW2fREb87aVpUB0WdNi5m00)
 
-### Entity-Relationship Diagram
-![Entity-Relationship Diagram:](https://planttext.com/api/plantuml/png/TP1B2i8m48RtESMiXLp0bIA8An7H0uHcgC4y93EbIEFTJTAM5iJb_yZ7FzaHgyYTim8z6tx3-NY3GG1im6ZO0d4qlirQIXXTfreyANgimoOubzzJzgmX5XynumvZyWTPpIOGPzjupjAQ9zAa5igTC4w8NbcBlDSw8j4FhSj5hnmkmGAvOg-YleHWAofMMH1ElKgjN9wIb6cOLujvVRLJdI5McAbTxHrwNRxn2m00)
+### Use Case Diagram
+
+![Use Case Diagram](https://planttext.com/api/plantuml/png/LP3B2eCm44NtynM3Ut-XL8Ikj8YlVT2f3JL9ISPAAVtt6bD1TtTo3vF3d1qBovCQOQGR8nkqShWpzj9Inz9e41qRYuqZYy9Xyv-JNadj7n80JmezZ8JLsp4f_03YvAWJZZ3AfMQyNkh8q_aIzcLX76Dgb2BDAr2a-pgJ3phKsQ5k9SrOc-U6k9LfwmDKKaVoHLZIB6mVaB8y60ejXaq-Q5Rm1MWmZaz1ESH5BeHi2_wla9QLIU0hE9Fk_Kb_)
+
+### Sequence Diagram
+![Sequence Diagram](https://planttext.com/api/plantuml/png/LP3B2i8m44Nt-OgX-qBTYeXG4GGVePeFYEaiWarIagd-lfFwQbUJEVVEdIIRH3hIu3hHSxN6zjeJg8GHT08reyN5SGTry1IreI8xBlNSqk1JnnPa2DseDtAkdtRNaNCLGa6vvWHOmj6oc1btpFZ4i8we2KVyTygG24nm3Zrzt8rallScOeOi9XBClXEgRtFCv6QVEPLtwCuCtLz_RthlFzWxycj_grPbESuqID7Y0-5wbkMYghwUDCdTsiIcs_0BJcA3liqV_G80)
 
 ### State Diagram for a Comment
 
@@ -18,8 +24,10 @@ This repository is a comprehensive codebase for the SocialFi NFT platform, consi
 ### Class Diagram
 ![Class Diagram](https://planttext.com/api/plantuml/png/RP3B2i8m44Nt-OgXInyBjr944SI5YlZuWB4PD9Ya9HCf8lwxJTfg5cx2vCwTCpUPiqVd7qQBGYCpx5OdU0c0uT4xPQ-WP7enUAKryYre6yK-NvR6aFKpADg2nLjqfAxrXtPcSlq0kQ2enbUKxFjQgpibg3YGSchKcln2IaVCYVveZ1OD_KOFLAEJ-xBKBM2BLHvm8r0Xjeljk2gyF9jaC1X3Pj0-i-yBfaqswr5P5hqKZEDuncnJg9hq9E7o5Cd6pjNIEcE_SKvMXc__0000)
 
-### Sequence Diagram
-![Sequence Diagram](https://planttext.com/api/plantuml/png/LP3B2i8m44Nt-OgX-qBTYeXG4GGVePeFYEaiWarIagd-lfFwQbUJEVVEdIIRH3hIu3hHSxN6zjeJg8GHT08reyN5SGTry1IreI8xBlNSqk1JnnPa2DseDtAkdtRNaNCLGa6vvWHOmj6oc1btpFZ4i8we2KVyTygG24nm3Zrzt8rallScOeOi9XBClXEgRtFCv6QVEPLtwCuCtLz_RthlFzWxycj_grPbESuqID7Y0-5wbkMYghwUDCdTsiIcs_0BJcA3liqV_G80)
+### Entity-Relationship Diagram
+![Entity-Relationship Diagram:](https://planttext.com/api/plantuml/png/TP1B2i8m48RtESMiXLp0bIA8An7H0uHcgC4y93EbIEFTJTAM5iJb_yZ7FzaHgyYTim8z6tx3-NY3GG1im6ZO0d4qlirQIXXTfreyANgimoOubzzJzgmX5XynumvZyWTPpIOGPzjupjAQ9zAa5igTC4w8NbcBlDSw8j4FhSj5hnmkmGAvOg-YleHWAofMMH1ElKgjN9wIb6cOLujvVRLJdI5McAbTxHrwNRxn2m00)
+
+
 # Tokenomics and Gameplay Logic
 
 ## A) Tokenomics:
@@ -52,6 +60,11 @@ This repository is a comprehensive codebase for the SocialFi NFT platform, consi
    - If there are more than 100 comments, then the TOP-100 reward-eligible comments are selected based on the highest number of likes.
    
    - This creates a dynamic leaderboard where commenters are incentivized to engage with the community to receive more likes and secure their position in the TOP-100.
+
+# Demo
+1. Marketplace https://near-mintbase-simple-marketplace.vercel.app/
+2. Store at MintBase.xyz https://testnet.mintbase.xyz/ref/rNaCXDkexpIRb5zDwKBYf_jFXN3CswRsVjIzzhRm8FE?type=meta
+3. MintBuilder https://near-simple-minter.vercel.app/
 
 # Components
 
