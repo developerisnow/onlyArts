@@ -33,3 +33,65 @@ The smart contract handles the logic for minting NFTs, posting comments, managin
 - Reward Pool Management
 - Top-100 Comment Selection Logic
 
+# Tokenomics and Gameplay Logic
+
+## A) Tokenomics:
+
+1. **Initial Cost**: Each comment on an NFT costs a certain amount of NEAR tokens to post, beginning with 1 NEAR for the first comment.
+   
+2. **Incremental Pricing**: The cost to comment increases linearly by 1 NEAR for each subsequent comment, e.g., the 2nd comment costs 2 NEAR, the 3rd costs 3 NEAR, and so on up to the 100th comment, which costs 100 NEAR.
+
+3. **Reward Pool**: Each comment fee contributes to a reward pool. The first commenter’s reward is the sum of fees paid by commenters 2 to 100, the second commenter is rewarded by commenters 3 to 100, and so on. The reward for each comment is proportional to the amount they contribute relative to others.
+
+4. **Reward Formula**:
+   
+   - For the `i-th` commenter to calculate rewards: 
+   - Reward_i = (Σ_(j=i+1)^(100) (Cost_j)) / 99-i
+   
+   Where `Cost_j` is the cost paid by the `j-th` commenter and `i` is the position of the current commenter in the sequence.
+
+#### B) Gameplay Logic:
+
+1. **Comment Limit**: Each wallet can only leave one comment per NFT, ensuring a broad distribution of participation.
+
+2. **Reward Eligibility**: Only the first 100 commenters are eligible for rewards from subsequent comment fees.
+
+3. **Proportional Distribution**: Rewards are distributed proportionally among the first 100 commenters based on their comment's position.
+
+4. **Likes Mechanism**: Comments can receive likes from users. If the number of comments exceeds 100, the top 100 comments eligible for rewards are determined not by the sequence of creation but by the number of likes they receive.
+
+5. **Top Comment Determination**:
+
+   - If there are more than 100 comments, then the TOP-100 reward-eligible comments are selected based on the highest number of likes.
+   
+   - This creates a dynamic leaderboard where commenters are incentivized to engage with the community to receive more likes and secure their position in the TOP-100.
+
+# About
+
+## Inspiration
+
+The concept of OnlyArts is born from the fusion of social media engagement and blockchain's potential for value creation. It's a SocialFi platform that rewards community interactions with a unique tokenomic model. By intertwining social behavior with financial incentives, we aim to cultivate a self-sustaining ecosystem of content creators and commentators.
+
+## What it does
+
+OnlyArts allows users to mint NFTs from their photos, transforming their social content into assets. Other participants can comment on these NFTs, turning their social engagement into an investment. Commentators pay a progressively increasing fee, and the earlier they comment, the more they can earn from subsequent comments. This model encourages early participation and rewards engagement.
+
+## How we built it
+
+We integrated NEAR blockchain technology to manage the minting, commenting, and financial transactions on OnlyArts. The smart contract mechanism is designed to handle the complex reward system and ensure fair distribution of rewards among the participants. The platform's frontend provides a seamless social media experience, allowing users to easily interact with NFTs.
+
+## Challenges we ran into
+
+Balancing the simplicity of social media interactions with the complexity of blockchain-driven financial models was a significant challenge. We needed to create a system that was easy to understand yet robust enough to handle a scalable rewards system.
+
+## Accomplishments that we're proud of
+
+We have successfully created a platform where social interactions are not just for likes but also have real financial value. Our unique reward system that benefits early and engaging commentators is a first-of-its-kind in the NFT space.
+
+## What we learned
+
+We learned that integrating social behaviors with financial incentives can lead to a powerful platform that rewards users for their engagement. This experience has expanded our knowledge of smart contracts and the intricacies of user experience design in the context of SocialFi.
+
+## What's next for OnlyArts
+
+OnlyArts is set to introduce features that enhance user interaction, such as augmented reality showcases for NFTs, integration with other social platforms, and more advanced social engagement metrics that allow for deeper insights into the value of each NFT and comment.
