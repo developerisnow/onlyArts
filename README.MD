@@ -1,4 +1,4 @@
-# SocialFi NFT Platform
+# SocialFi NFT Platform OnlyArts OAH Hub
 
 ![OnlyArts Hub](https://image-cache-service-z3w7d7dnea-ew.a.run.app/media?url=https://arweave.net/T7BUmTXw-jQV2h-NkaNeMsnCKMSgmuOUuJjudqiZNi8)
 
