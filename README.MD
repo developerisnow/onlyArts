@@ -2,39 +2,11 @@
 
 This repository is a comprehensive codebase for the SocialFi NFT platform, consisting of three main components: `frontend marketplace`, `minterBuilder`, and `smartcontract`. Each component serves a unique purpose in facilitating a social-to-earn NFT ecosystem where users can mint NFTs of images, comment, and earn rewards based on interaction and engagement.
 
-![Flow diagram](https://planttext.com/api/plantuml/png/BKzB2i8m4Dtd5BDi5qBTDWf2LN2ZHTe3X6IAmIHJabJnzawZkvdtuxr3oYhcnJjH3j6E2IDu6tA2wtcGVs2cn80cxp5aAUm4LVTxOBU7RTFKa1yOeFfWgWL0UmawOk4rM-KAZRDH6U6ERnKDz4Ikm9roUd4hOuEnBsiMvI0MaHJe4a8Lg6Hsj72UiqzCnNd4Z96h8WotViCbMCyHasXFmG1D7CW2fREb87aVpUB0WdNi5m00)
-## Components
-
-### Frontend Marketplace
-
-The frontend marketplace is the user interface where users can view, mint, and interact with NFTs. It's built using modern web technologies to provide a seamless and responsive experience.
-
-**Features**:
-- NFT Display
-- Comment System
-- Reward Distribution Viewer
-- User Profile Management
-
-### MinterBuilder
-
-MinterBuilder is a tool within the platform allowing users to create and mint their NFTs. It connects with the smart contract to enable secure and verifiable transactions on the blockchain.
-
-**Features**:
-- Image Uploading
-- NFT Minting Process
-- Integration with Smart Contract
-
-### SmartContract
-
-The smart contract handles the logic for minting NFTs, posting comments, managing the increasing cost of comments, and distributing rewards. It is built on the NEAR protocol to ensure scalability and security.
-
-**Features**:
-- NEAR Protocol Integration
-- Comment Fee Logic
-- Reward Pool Management
-- Top-100 Comment Selection Logic
-
 ## Diagrams
+
+### Flow Diagram
+
+![Flow diagram](https://planttext.com/api/plantuml/png/BKzB2i8m4Dtd5BDi5qBTDWf2LN2ZHTe3X6IAmIHJabJnzawZkvdtuxr3oYhcnJjH3j6E2IDu6tA2wtcGVs2cn80cxp5aAUm4LVTxOBU7RTFKa1yOeFfWgWL0UmawOk4rM-KAZRDH6U6ERnKDz4Ikm9roUd4hOuEnBsiMvI0MaHJe4a8Lg6Hsj72UiqzCnNd4Z96h8WotViCbMCyHasXFmG1D7CW2fREb87aVpUB0WdNi5m00)
 
 ### Entity-Relationship Diagram
 ![Entity-Relationship Diagram:](https://planttext.com/api/plantuml/png/TP1B2i8m48RtESMiXLp0bIA8An7H0uHcgC4y93EbIEFTJTAM5iJb_yZ7FzaHgyYTim8z6tx3-NY3GG1im6ZO0d4qlirQIXXTfreyANgimoOubzzJzgmX5XynumvZyWTPpIOGPzjupjAQ9zAa5igTC4w8NbcBlDSw8j4FhSj5hnmkmGAvOg-YleHWAofMMH1ElKgjN9wIb6cOLujvVRLJdI5McAbTxHrwNRxn2m00)
@@ -43,6 +15,11 @@ The smart contract handles the logic for minting NFTs, posting comments, managin
 
 ![State Diagram for a Comment](https://planttext.com/api/plantuml/png/SoWkIImgAStDuOhMYbNGrRLJ2Cqho2ykIKtXWZ70eW4GffM2StvkRcfU2LI0Am2Xn2Sp6wmYA3KvDRCi5SpdWWY2f3tpGl8B30qCW2fSyqfIYu328Vu1ka0HBhWKI5rGQdbYKGhK912pMC4bixYaA3Ef56GXN1ga5kXcBeVKl1IG-m40)
 
+### Class Diagram
+![Class Diagram](https://planttext.com/api/plantuml/png/RP3B2i8m44Nt-OgXInyBjr944SI5YlZuWB4PD9Ya9HCf8lwxJTfg5cx2vCwTCpUPiqVd7qQBGYCpx5OdU0c0uT4xPQ-WP7enUAKryYre6yK-NvR6aFKpADg2nLjqfAxrXtPcSlq0kQ2enbUKxFjQgpibg3YGSchKcln2IaVCYVveZ1OD_KOFLAEJ-xBKBM2BLHvm8r0Xjeljk2gyF9jaC1X3Pj0-i-yBfaqswr5P5hqKZEDuncnJg9hq9E7o5Cd6pjNIEcE_SKvMXc__0000)
+
+### Sequence Diagram
+![Sequence Diagram](https://planttext.com/api/plantuml/png/LP3B2i8m44Nt-OgX-qBTYeXG4GGVePeFYEaiWarIagd-lfFwQbUJEVVEdIIRH3hIu3hHSxN6zjeJg8GHT08reyN5SGTry1IreI8xBlNSqk1JnnPa2DseDtAkdtRNaNCLGa6vvWHOmj6oc1btpFZ4i8we2KVyTygG24nm3Zrzt8rallScOeOi9XBClXEgRtFCv6QVEPLtwCuCtLz_RthlFzWxycj_grPbESuqID7Y0-5wbkMYghwUDCdTsiIcs_0BJcA3liqV_G80)
 # Tokenomics and Gameplay Logic
 
 ## A) Tokenomics:
@@ -75,6 +52,40 @@ The smart contract handles the logic for minting NFTs, posting comments, managin
    - If there are more than 100 comments, then the TOP-100 reward-eligible comments are selected based on the highest number of likes.
    
    - This creates a dynamic leaderboard where commenters are incentivized to engage with the community to receive more likes and secure their position in the TOP-100.
+
+# Components
+
+### Frontend Marketplace
+
+The frontend marketplace is the user interface where users can view, mint, and interact with NFTs. It's built using modern web technologies to provide a seamless and responsive experience.
+
+**Features**:
+- NFT Display
+- Comment System
+- Reward Distribution Viewer
+- User Profile Management
+
+### MinterBuilder
+
+MinterBuilder is a tool within the platform allowing users to create and mint their NFTs. It connects with the smart contract to enable secure and verifiable transactions on the blockchain.
+
+**Features**:
+- Image Uploading
+- NFT Minting Process
+- Integration with Smart Contract
+
+### SmartContract
+
+The smart contract handles the logic for minting NFTs, posting comments, managing the increasing cost of comments, and distributing rewards. It is built on the NEAR protocol to ensure scalability and security.
+
+**Features**:
+- NEAR Protocol Integration
+- Comment Fee Logic
+- Reward Pool Management
+- Top-100 Comment Selection Logic
+
+
+
 
 # About
 
