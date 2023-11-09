@@ -2,6 +2,7 @@
 
 This repository is a comprehensive codebase for the SocialFi NFT platform, consisting of three main components: `frontend marketplace`, `minterBuilder`, and `smartcontract`. Each component serves a unique purpose in facilitating a social-to-earn NFT ecosystem where users can mint NFTs of images, comment, and earn rewards based on interaction and engagement.
 
+![Flow diagram](https://planttext.com/api/plantuml/png/BKzB2i8m4Dtd5BDi5qBTDWf2LN2ZHTe3X6IAmIHJabJnzawZkvdtuxr3oYhcnJjH3j6E2IDu6tA2wtcGVs2cn80cxp5aAUm4LVTxOBU7RTFKa1yOeFfWgWL0UmawOk4rM-KAZRDH6U6ERnKDz4Ikm9roUd4hOuEnBsiMvI0MaHJe4a8Lg6Hsj72UiqzCnNd4Z96h8WotViCbMCyHasXFmG1D7CW2fREb87aVpUB0WdNi5m00)
 ## Components
 
 ### Frontend Marketplace
